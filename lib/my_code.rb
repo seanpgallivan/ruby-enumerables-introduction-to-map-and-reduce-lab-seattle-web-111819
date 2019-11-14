@@ -42,6 +42,9 @@ def reduce_to_total(source_array, starting_point=0)
   tot = 0
   i = starting_point
   while i < source_array.length do
+    puts i
+    puts tot
+    puts source_array[i]
     tot += source_array[i]
     i += 1
   end
@@ -69,17 +72,3 @@ def reduce_to_any_true(source_array)
   end
   return false
 end
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
